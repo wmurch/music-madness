@@ -5,11 +5,13 @@ class ManthonyData extends Component {
   render() {
     return (
       <>
-        <div>
-          {console.log(this.props.location)}
-          <h1>Mark Anthony</h1>
-          <img src={Manthony} alt="Mark Anthony" />
-        </div>
+        <main>
+          <div>
+            {console.log(this.props.location)}
+            <h1>Mark Anthony</h1>
+            <img src={Manthony} alt="Mark Anthony" />
+          </div>
+        </main>
       </>
     )
   }

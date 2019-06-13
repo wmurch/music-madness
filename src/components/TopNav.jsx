@@ -5,6 +5,9 @@ class TopNav extends Component {
   render() {
     return (
       <>
+        <div className="Home">
+          <Link to="/">Home</Link>
+        </div>
         <div className="Klamar">
           <Link to="/Klamar">Kendrick Lamar</Link>
         </div>

@@ -5,11 +5,13 @@ class CardibData extends Component {
   render() {
     return (
       <>
-        <div>
-          {console.log(this.props.location)}
-          <h1>Cardi B</h1>
-          <img src={CardiB} alt="Cardi B" />
-        </div>
+        <main>
+          <div>
+            {console.log(this.props.location)}
+            <h1>Cardi B</h1>
+            <img src={CardiB} alt="Cardi B" />
+          </div>
+        </main>
       </>
     )
   }
