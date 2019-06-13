@@ -4,22 +4,23 @@ import KendrickLamar from './pages/KendrickLamar'
 import CardiB from './pages/CardiB'
 import MarkAnthony from './pages/MarkAnthony'
 import TopNav from './components/TopNav'
+import Home from './pages/Home'
 
 class App extends Component {
   render() {
     return (
       <>
-        <Router>
-          <header>
+        <header>
+          <Router>
             <TopNav />
-          </header>
-          <Switch>
-            <Route path="/" />
-            <Route path="/Klamar" exact component={KendrickLamar} />
-            <Route path="/CardiB" component={CardiB} />
-            <Route path="/Manthony" component={MarkAnthony} />
-          </Switch>
-        </Router>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/Klamar" component={KendrickLamar} />
+              <Route path="/CardiB" component={CardiB} />
+              <Route path="/Manthony" component={MarkAnthony} />
+            </Switch>
+          </Router>
+        </header>
       </>
     )
   }

@@ -5,9 +5,15 @@ class TopNav extends Component {
   render() {
     return (
       <>
-        <Link to="/Klamar">Kendrick Lamar</Link>
-        <Link to="/CardiB">Cardi B</Link>
-        <Link to="/CardiB">Mark Anthony</Link>
+        <div className="Klamar">
+          <Link to="/Klamar">Kendrick Lamar</Link>
+        </div>
+        <div className="CardiB">
+          <Link to="/CardiB">Cardi B</Link>
+        </div>
+        <div className="Manthony">
+          <Link to="/Manthony">Mark Anthony</Link>
+        </div>
       </>
     )
   }
