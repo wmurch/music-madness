@@ -9,15 +9,37 @@ html {
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
   min-height: 100%;
   background-image: url('./images/music.jpg');
+  background-position: center;
 }
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  color: aliceblue;
+  color: gold;
+}
+/* unvisited link */
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 img {
   width: auto;
