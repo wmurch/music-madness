@@ -9,6 +9,7 @@ class KlamarData extends Component {
           <div>
             {console.log(this.props.location)}
             <h1>Kendrick Lamar</h1>
+            <p>Latest Album: Damn</p>
             <img src={Klamar} alt="Kendrick Lamar" />
           </div>
         </main>

@@ -9,6 +9,7 @@ class CardibData extends Component {
           <div>
             {console.log(this.props.location)}
             <h1>Cardi B</h1>
+            <p>Latest Album: Invasion of Privacy</p>
             <img src={CardiB} alt="Cardi B" />
           </div>
         </main>
